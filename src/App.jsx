@@ -5,7 +5,6 @@ import Sidebar from './components/Sidebar';
 import Dashboard from './pages/Dashboard';
 import Pacientes from './pages/Pacientes';
 import Calendario from './pages/Calendario';
-import Nutricion from './pages/Nutricion';
 import Alertas from './pages/Alertas';
 import Graficos from './pages/Graficos';
 import Configuracion from './pages/Configuracion';
@@ -31,7 +30,6 @@ const App = () => {
             <Route path="/" element={<Dashboard />} />
             <Route path="/pacientes" element={<Pacientes />} />
             <Route path="/calendario" element={<Calendario />} />
-            <Route path="/nutricion" element={<Nutricion />} />
             <Route path="/alertas" element={<Alertas />} />
             <Route path="/graficos" element={<Graficos />} />
             <Route path="/configuracion" element={<Configuracion />} />

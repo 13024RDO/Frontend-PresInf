@@ -3,7 +3,7 @@ import SidebarItem from "./SidebarItem";
 
 const Sidebar = ({ user }) => {
   return (
-    <aside className="bg-primary text-white p-3 d-flex flex-column align-items-center" style={{ minHeight: "115vh", width: "250px" }}>
+    <aside className="bg-primary text-white p-3 d-flex flex-column align-items-center" style={{ minHeight: "100%", width: "250px" }}>
       <img
         src={user.photo}
         alt="Foto de perfil"
@@ -16,7 +16,6 @@ const Sidebar = ({ user }) => {
         <SidebarItem label="Dashboard" path="/" />
         <SidebarItem label="Pacientes" path="/pacientes" />
         <SidebarItem label="Calendario de Vacunación" path="/calendario" />
-        <SidebarItem label="Control Nutricional" path="/nutricion" />
         <SidebarItem label="Alertas" path="/alertas" />
         <SidebarItem label="Gráficos Estadísticos" path="/graficos" />
         <SidebarItem label="Configuración" path="/configuracion" />

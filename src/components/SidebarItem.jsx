@@ -7,7 +7,7 @@ const SidebarItem = ({ label, path }) => {
       to={path}
       className={({ isActive }) =>
         `btn w-100 mb-2 text-start ${
-          isActive ? "btn-primary fw-bold text-white" : "btn-outline-light text-white"
+          isActive ? "btn-light fw-bold text-dark" : "btn-outline-light text-light"
         }`
       }
     >
